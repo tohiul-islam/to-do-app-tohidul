@@ -1,0 +1,30 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/digital-art-beautiful-mountains_23-2151123734.jpg?size=626&ext=jpg&ga=GA1.1.1887492874.1725007328&semt=ais_hybrid");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card_glass{
+background: rgba(255, 255, 255, 0.03);
+border-radius: 16px;
+box-shadow: 0 20px 38px rgb(0, 0, 0);
+border: 1px solid rgba(255, 255, 255, 1);
+}
+
+/* button disain*/
+
+button:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
