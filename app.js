@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Event listener to edit the to-do item
         editButton.addEventListener('click', function () {
-            const newContent = prompt('Edit your to-do item:', todoContent.textContent);
+            const newContent = prompt('Edit your task:', todoContent.textContent);
             if (newContent !== null && newContent.trim() !== '') {
                 todoContent.textContent = newContent.trim();
             }
